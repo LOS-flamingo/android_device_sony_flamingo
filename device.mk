@@ -66,6 +66,10 @@ PRODUCT_PACKAGES += \
     init_sony \
     toybox_static
 
+# Variant linking script
+PRODUCT_COPY_FILES += \
+    device/sony/flamingo/releasetools/firmware.sh:install/bin/firmware.sh
+
 PRODUCT_AAPT_CONFIG := large
 PRODUCT_AAPT_PREBUILT_DPI := hdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi

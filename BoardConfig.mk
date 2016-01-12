@@ -30,3 +30,6 @@ BOARD_KERNEL_CMDLINE += androidboot.hardware=flamingo
 
 # Vendor platform
 BOARD_VENDOR := sony
+
+# Releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := device/sony/flamingo/releasetools
