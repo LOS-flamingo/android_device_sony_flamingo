@@ -61,6 +61,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     nfc_nci.flamingo
 
+# Recovery
+PRODUCT_PACKAGES += \
+    init_sony \
+    toybox_static
+
 PRODUCT_AAPT_CONFIG := large
 PRODUCT_AAPT_PREBUILT_DPI := hdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi

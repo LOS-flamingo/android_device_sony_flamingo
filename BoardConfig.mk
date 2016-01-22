@@ -22,9 +22,11 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE   := 1782579200
 # Reserve space for data encryption (1879030784-16384)
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 1879014400
 
-# kernel configs
+# Kernel configs
 TARGET_KERNEL_SOURCE := kernel/sony/msm8226
 TARGET_KERNEL_CONFIG := aosp_yukon_flamingo_defconfig
 BOARD_KERNEL_IMAGE_NAME := zImage
-
 BOARD_KERNEL_CMDLINE += androidboot.hardware=flamingo
+
+# Vendor platform
+BOARD_VENDOR := sony
