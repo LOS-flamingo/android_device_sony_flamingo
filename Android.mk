@@ -10,7 +10,7 @@ root_init_real := $(TARGET_ROOT_OUT)/init.real
 	# and make /init be a symlink to /sbin/init_sony (which will execute
 	# /init.real, if appropriate.
 $(root_init_real): $(root_init) $(PRODUCT_OUT)/utilities/init_sony $(PRODUCT_OUT)/utilities/toybox
-	cp $(PRODUCT_OUT)/utilities/toybox $(TARGET_ROOT_OUT)/sbin/toybox
+	cp $(PRODUCT_OUT)/utilities/toybox $(TARGET_ROOT_OUT)/sbin/toybox_init
 	cp $(PRODUCT_OUT)/utilities/init_sony $(TARGET_ROOT_OUT)/sbin/init_sony
 	$(hide) if [ ! -L $(root_init) ]; then \
 	  echo "/init $(root_init) isn't a symlink"; \
