@@ -42,6 +42,13 @@ PRODUCT_PACKAGES += \
     init.flamingo \
     ueventd.flamingo
 
+# Sensors
+PRODUCT_COPY_FILES += \
+    device/sony/eagle/rootdir/system/etc/_hals.conf:system/vendor/etc/sensors/_hals.conf
+
+ PRODUCT_PACKAGES += \
+    sensors.msm8226
+
 # Lights
 PRODUCT_PACKAGES += \
     lights.flamingo
