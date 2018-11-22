@@ -44,7 +44,7 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 PRODUCT_COPY_FILES += \
-    device/sony/eagle/rootdir/system/etc/_hals.conf:system/vendor/etc/sensors/_hals.conf
+    device/sony/flamingo/rootdir/system/etc/_hals.conf:system/vendor/etc/sensors/_hals.conf
 
  PRODUCT_PACKAGES += \
     sensors.msm8226
