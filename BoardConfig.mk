@@ -19,8 +19,13 @@ TARGET_RECOVERY_FSTAB = device/sony/flamingo/rootdir/fstab.flamingo
 TARGET_BOOTLOADER_BOARD_NAME := D2203
 
 BOARD_SYSTEMIMAGE_PARTITION_SIZE   := 1782579200
-#Reserve space for data encryption (1879030784-16384)
+# Reserve space for data encryption (1879030784-16384)
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 1879014400
+
+# kernel configs
+TARGET_KERNEL_SOURCE := kernel/sony/msm8226
+TARGET_KERNEL_CONFIG := aosp_yukon_flamingo_defconfig
+BOARD_KERNEL_IMAGE_NAME := zImage
 
 BOARD_KERNEL_CMDLINE += androidboot.hardware=flamingo
 BOARD_KERNEL_CMDLINE += mem=1003M
