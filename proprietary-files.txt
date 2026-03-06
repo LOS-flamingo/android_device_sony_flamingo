@@ -145,6 +145,7 @@ etc/firmware/widevine.b03
 etc/firmware/widevine.mdt
 lib/hw/camera.msm8226.so:lib/hw/camera.vendor.msm8226.so
 lib/hw/lights.msm8226.so:lib/hw/lights.vendor.msm8226.so
+lib/hw/nfc_nci_pn547.default.so
 lib/soundfx/libposteffectwrapper.so
 lib/soundfx/libpreeffectwrapper.so
 lib/soundfx/libqcompostprocbundle.so
@@ -427,4 +428,3 @@ vendor/lib/libwvdrm_L3.so
 vendor/lib/libwvm.so
 vendor/lib/libWVStreamControlAPI_L3.so
 vendor/lib/libxml.so
-
