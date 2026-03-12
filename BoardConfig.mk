@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # inherit from msm8226-common
-include device/sony/msm8226-common/BoardConfigCommon.mk
+include device/sony/yukon/PlatformConfig.mk
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := D2203,flamingo

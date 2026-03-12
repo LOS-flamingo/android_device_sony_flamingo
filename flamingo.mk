@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # msm8226 common
-$(call inherit-product, device/sony/msm8226-common/msm8226-common.mk)
+$(call inherit-product, device/sony/yukon/platform.mk)
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
